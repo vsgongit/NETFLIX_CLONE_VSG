@@ -1,15 +1,18 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
 }
 
 .top {
     margin: 0px;
     padding: 0px;
-    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/05e91faa-6f6d-4325-934e-5418dcc2567b/web/IN-en-20250630-TRIFECTA-perspective_159086b1-425f-435b-bcd5-1ed8039cdef9_large.jpg");
-    background-position: center center;
+    /* background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/05e91faa-6f6d-4325-934e-5418dcc2567b/web/IN-en-20250630-TRIFECTA-perspective_159086b1-425f-435b-bcd5-1ed8039cdef9_large.jpg"); */
+    /* background-position: center center; */
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/7d2359a4-434f-4efa-9ff3-e9d38a8bde7f/web/IN-en-20250707-TRIFECTA-perspective_4faa9280-a2c5-4e07-aafc-a45ce43fea09_large.jpg");
     object-fit: cover;
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     position: relative;
     z-index: -1;
@@ -19,7 +22,7 @@
 .top .blackbox {
     position: absolute;
     top: 0;
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     background-color: black;
     opacity: 0.7;
@@ -72,7 +75,13 @@ nav .button {
     background: transparent;
     color: rgb(255, 255, 255);
 }
-
+.button #b1 img{
+    width: auto;
+    min-height: 2rem;
+    padding: 0.25rem 1rem;
+    border: 0 solid transparent;
+    background: transparent;
+}
 .heading {
     margin: auto;
     display: grid;
@@ -174,7 +183,7 @@ nav .button {
 .content {
     margin-top: 12vh;
     height: 200px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,14 +197,21 @@ nav .button {
     font-weight: 400;
 }
 
-.middle {
+.contmid{
+    height: 5rem;
+    width:100%;
     position: relative;
-    height: 6.25rem;
-    width: 100vw;
+    background: black;
+}
+
+.middle {
+    position: absolute;
+    height: 5.5rem;
+    width: 100%;
     box-sizing: border-box;
     /* position: absolute; */
     /* height: 100%; */
-    top: -100px;
+    top: -60px;
     bottom: 0px;
     /* margin: auto; */
     display: flex;
@@ -205,13 +221,14 @@ nav .button {
     border-top-right-radius: 50% 50%;
     border-bottom: none;
     background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    /* border: 2px solid blue; */
 }
 
 .middle .partition {
     content: '';
     position: absolute;
     height: auto;
-    width: auto;
+    width: 100%;
     top: -4px;
     right: 0;
     bottom: 0;
@@ -219,5 +236,24 @@ nav .button {
     z-index: -1;
     margin-top: -.25rem;
     border-radius: inherit;
+
     background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+}
+
+.bottom{
+    height:100%;
+    width: 100%;
+    background: black;
+    position: relative;
+    /* border: 2px solid rgb(255, 72, 0); */
+}
+.bottom .trend{
+    display: flex;
+    position: absolute;
+    top: -75px;
+    left: 150px;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
