@@ -75,13 +75,15 @@ nav .button {
     background: transparent;
     color: rgb(255, 255, 255);
 }
-.button #b1 img{
+
+.button #b1 img {
     width: auto;
     min-height: 2rem;
     padding: 0.25rem 1rem;
     border: 0 solid transparent;
     background: transparent;
 }
+
 .heading {
     margin: auto;
     display: grid;
@@ -197,9 +199,9 @@ nav .button {
     font-weight: 400;
 }
 
-.contmid{
-    height: 5rem;
-    width:100%;
+.contmid {
+    height: 3rem;
+    width: 100%;
     position: relative;
     background: black;
 }
@@ -240,20 +242,181 @@ nav .button {
     background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
 }
 
-.bottom{
-    height:100%;
+.bottom {
+    height: 60px;
+    ;
     width: 100%;
     background: black;
     position: relative;
     /* border: 2px solid rgb(255, 72, 0); */
 }
-.bottom .trend{
+
+.bottom .trend {
     display: flex;
     position: absolute;
-    top: -75px;
+    top: -40px;
     left: 150px;
     color: white;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
+}
+
+.card_box {
+    height: 280px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    white-space: nowrap;
+
+
+}
+
+.card_box .cards {
+    margin: 0px 148px;
+    height: 252px;
+    width: 70%;
+    bottom: 28px;
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    scrollbar-width: none;
+
+
+}
+
+.card_box img {
+    height: 252px;
+    width: 180px;
+    /* position: absolute; */
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.container {
+    height: 328px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    /* border: 2px solid rgb(90, 6, 246); */
+}
+
+.container .guide {
+    height: 328px;
+    width: 100%;
+    max-width: 1200px;
+    /* border: 1px solid rgb(231, 23, 23); */
+    /* background-color: black; */
+    margin: auto;
+    display: flex;
+    /* position: relative; */
+}
+
+.line2 {
+    height: auto;
+    width: 100%;
+    background: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    padding-left: 150px;
+}
+
+.guide ul {
+    margin: 23.2px 0px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 16px;
+    /* or any value */
+    justify-content: flex-start;
+    /* to avoid auto-stretching */
+    padding: 0;
+}
+
+.guide ul div {
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    height: 280px;
+    width: 288px;
+    border: none;
+    border-radius: 1rem;
+    position: relative;
+
+}
+
+.guide .feature .subcont {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    text-align: left;
+    padding: 10% 8% 5% 5%;
+}
+
+.subcont p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 8%;
+}
+
+.faq_container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    position: relative;
+}
+
+.faq_box {
+    margin: auto;
+    height: 100%;
+    width: 80%;
+    background: black;
+}
+
+.faq_box ul{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.faq_box .faq_title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-top: 2%;
+
+
+}
+
+.faq_box .faq {
+    padding: 1.5rem;
+    background-color: rgb(45, 45, 45);
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.line3{
+    background: black;
+    padding-top: 3rem;
+    height:auto;
+    width: 100%;
+
+}
+.line3 p{
+    text-align: center;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: rem;
+    font-weight: 400;
+    line-height: 1.5;
 }
