@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📺 Netflix India Clone
 
 A visually accurate and responsive **Netflix India landing page clone**, built using **HTML5** and **CSS3 (Flexbox + Grid)**. The goal of this project was to recreate Netflix's UI using semantic HTML and scalable CSS with responsive design principles.
@@ -86,3 +87,7 @@ Netflix_Clone_VSG/
 
 **Vaibhav Gurav**  
 Electronics & Communication Engineering student passionate about full-stack web development and UI/UX design.
+=======
+📺 Netflix India Clone
+A visually accurate and responsive Netflix India landing page clone, built using HTML5 and CSS3 (Flexbox + Grid). The goal of this project was to recreate Netflix's UI using semantic HTML and scalable CSS with responsive design principles.
+>>>>>>> f5374fe01b2d6c4cf9b254fdfffb28864046a3eb
