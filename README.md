@@ -16,7 +16,6 @@ A visually accurate and responsive **Netflix India landing page clone**, built u
 - ✅ FAQ accordion-style layout (non-functional UI for now)
 - ✅ Footer with multiple links and legal info
 - ✅ Fully **responsive design** with media queries
-- ✅ Uses **rem units** instead of px for accessibility
 
 ---
 
