@@ -30,8 +30,6 @@ Netflix_Clone_VSG/
 ├── code/
 │   ├── index.html         # Main landing page
 │   └── style.css          # All styles with rem-based units
-├── index.html         # Main landing page
-├── style.css          # All styles with rem-based units
 ├── README.md          # Project documentation (this file)
 ```
 
